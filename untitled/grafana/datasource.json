@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "orgId": 1,
+  "name": "Elasticsearch",
+  "type": "elasticsearch",
+  "typeLogoUrl": "public/app/plugins/datasource/elasticsearch/img/elasticsearch.svg",
+  "access": "proxy",
+  "url": "http://localhost:9200",
+  "password": "",
+  "user": "",
+  "database": "ride-sharing-metrics-*",
+  "basicAuth": false,
+  "isDefault": true,
+  "jsonData": {
+    "esVersion": "7.0.0",
+    "timeField": "timestamp",
+    "interval": "Daily",
+    "maxConcurrentShardRequests": 256,
+    "logLevelField": "",
+    "logMessageField": "",
+    "maxDocCount": 50000,
+    "node": "",
+    "pickInterval": true,
+    "timeInterval": "",
+    "timeIntervalFactor": 2,
+    "tlsSkipVerify": false
+  },
+  "readOnly": false
+}
