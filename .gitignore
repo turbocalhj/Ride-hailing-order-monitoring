@@ -1,0 +1,16 @@
+# 构建产物
+target/
+
+# IDE 与编辑器
+.idea/
+*.iml
+.vscode/
+
+# 系统与日志
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地数据文件（NYC TLC 原始数据不入库）
+*.csv
+*.parquet
